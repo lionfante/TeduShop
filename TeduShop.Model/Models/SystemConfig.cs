@@ -20,7 +20,7 @@ namespace TeduShop.Model.Models
         public string Code { set; get; }
 
         [MaxLength(50)]
-        public string? ValueString { set; get; }
+        public string ValueString { set; get; }
 
         public int? ValueInt { set; get; }
     }

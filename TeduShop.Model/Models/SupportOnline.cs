@@ -21,21 +21,20 @@ namespace TeduShop.Model.Models
         public string Name { set; get; }
 
         [MaxLength(50)]
-        public string? Department { set; get; }
+        public string Department { set; get; }
 
         [MaxLength(50)]
-        public string? Skype { set; get; }
+        public string Skype { set; get; }
 
         [MaxLength(50)]
-        public string? Mobile { set; get; }
+        public string Mobile { set; get; }
 
         [MaxLength(50)]
-        public string? Email { set; get; }
+        public string Email { set; get; }
 
         [MaxLength(50)]
-        public string? Facebook { set; get; }
+        public string Facebook { set; get; }
 
-        [MaxLength(50)]
         public bool Status { set; get; }
 
         public int? DisplayOrder { set; get; }
