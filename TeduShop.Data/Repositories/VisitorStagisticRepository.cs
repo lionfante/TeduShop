@@ -8,7 +8,7 @@ using TeduShop.Model.Models;
 
 namespace TeduShop.Data.Repositories
 {
-    public interface IVisitorStagisticRepository
+    public interface IVisitorStagisticRepository : IRepository<VisitorStagistic>
     {
     }
     public class VisitorStagisticRepository : RepositoryBase<VisitorStagistic> , IVisitorStagisticRepository
