@@ -33,6 +33,7 @@ namespace TeduShop.Data
         public DbSet<SystemConfig> SystemConfigs { set; get; }
         public DbSet<Tag> Tags { set; get; }
         public DbSet<VisitorStagistic> VisitorStagistics { set; get; }
+        public DbSet<Error> Errors { set; get; }
 
         //Ghi đè phương thức của DbContext
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
